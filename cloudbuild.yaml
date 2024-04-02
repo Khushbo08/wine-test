@@ -3,3 +3,5 @@ steps:
    entrypoint: mvn
    args: ['package','-Dmaven.test.skip=true']
    
+options:
+ logging: CLOUD_LOGGING_ONLY
