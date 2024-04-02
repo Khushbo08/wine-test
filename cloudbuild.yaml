@@ -1,7 +1,7 @@
 steps:
  - name: maven:3.6.3-jdk-11
    entrypoint: mvn
-   args: ['package','-Dmaven.test.skip=true']
+   args: ['clean','package']
    
 options:
  logging: CLOUD_LOGGING_ONLY
