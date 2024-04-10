@@ -9,7 +9,7 @@ steps:
    args: ['push', 'us-central1-docker.pkg.dev/khushbu-419105/java-repo/javaimg:$SHORT_SHA']
  
  - name: gcr.io/cloud-builders/gcloud
-   args: ['app','deploy','--image-url','us-central1-docker.pkg.dev/khushbu-419105/java-repo/javaimg:$SHORT_SHA','--appyaml=app.yaml']
+   args: ['app','deploy','--image-url','us-central1-docker.pkg.dev/khushbu-419105/java-repo/javaimg:$SHORT_SHA']
 images: ['us-central1-docker.pkg.dev/khushbu-419105/java-repo/javaimg:$SHORT_SHA']
    
 options:
