@@ -3,7 +3,7 @@ env: flex
 runtime_config:
   operating_system: ubuntu22
 handlers:
-- url: /.*
+  - url: /.*
 script: auto
 
 manual_scaling:
