@@ -3,7 +3,7 @@ env: flex
 runtime_config:
   jdk: openjdk11
 handlers:
-  - url: /.*
-    script: auto
+- url: /.*
+  script: auto
 manual_scaling:
   instances: 1
