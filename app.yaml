@@ -4,7 +4,7 @@ runtime_config:
   operating_system: ubuntu22
 handlers:
   - url: /.*
-script: auto
+    script: auto
 
 manual_scaling:
 instances: 1
