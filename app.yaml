@@ -7,3 +7,5 @@ handlers:
   script: auto
 manual_scaling:
   instances: 1
+vpc_access_connector:
+ name: projects/khushbu-419105/locations/us-central1/connectors/connect-to-sql
