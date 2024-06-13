@@ -2,9 +2,9 @@
   spring:
    datasource:
      driver-class-name: com.mysql.cj.jdbc.Driver
-     url: jdbc:mysql://10.52.64.3:3306/wine_db
-     username: root
-     password: root
+     url: terraform-20240613124422788700000006.czhtyfllgyoa.us-east-1.rds.amazonaws.com:3306
+     username: ctgdevops
+     password: devops123
    jpa:
      hibernate:
        ddl-auto: update
