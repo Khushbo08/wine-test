@@ -2,7 +2,7 @@
   spring:
    datasource:
      driver-class-name: com.mysql.cj.jdbc.Driver
-     url: terraform-20240613124422788700000006.czhtyfllgyoa.us-east-1.rds.amazonaws.com:3306
+     url: jdbc:mysql://terraform-20240613124422788700000006.czhtyfllgyoa.us-east-1.rds.amazonaws.com:3306/wine_db
      username: ctgdevops
      password: devops123
    jpa:
